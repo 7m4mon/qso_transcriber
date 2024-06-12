@@ -1,0 +1,7 @@
+{
+    "max_rec_sec": 300.0,
+    "min_rec_sec": 0.3,
+    "input_device_idx": 1,
+    "comport": "COM15",
+    "geometry": "800x600"
+}
