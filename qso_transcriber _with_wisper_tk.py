@@ -45,7 +45,7 @@ def convert_mp3(wav_path):
     return (wav_path + ".mp3")
 
 # 別スレッドで呼び出されて wisperで処理をする。
-def transcripter(filepath):
+def transcriber(filepath):
     result = speech_to_text(convert_mp3(filepath))
     print(result)
     resultTxtFilename = filepath + ".txt"
@@ -111,7 +111,7 @@ def listen_radio():
                 wav.close()
 
                 # 別スレッドでwisperに渡す
-                wisper_thread = threading.Thread(target = transcripter, args=(wave_file_name,))
+                wisper_thread = threading.Thread(target = transcriber, args=(wave_file_name,))
                 wisper_thread.start()
 
 
@@ -134,7 +134,7 @@ def clear_received_text():
 
 # GUIのルートを作成
 root = tk.Tk()
-root.title("QSO Transcripter")
+root.title("QSO Transcriber")
 root.geometry(settings_dict['geometry'])
 
 # 最下部のラベル
