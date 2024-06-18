@@ -54,6 +54,7 @@ def transcriber(filepath):
     #履歴フィールドにタイムスタンプと共に表示
     timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
     received_text.insert(tk.END, '================== ' + timestamp + ' ================== \r\n' + result + '\r\n')
+    received_text.yview_moveto(1)   # 下にスクロール
 
 # ここから受信処理
 def listen_radio():
