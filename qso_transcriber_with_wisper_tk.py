@@ -126,7 +126,7 @@ def listen_radio():
         audio.terminate()
         kill_all_threads()
         ser.close()
-        # end of receive()
+        # end of listen_radio()
 
 
 # GUI 履歴をクリア
