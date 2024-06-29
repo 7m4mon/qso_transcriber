@@ -5,6 +5,11 @@
 * 概要
   * Open AI社が提供する文字起こしAPI `Wisper` を使用して、IC-9700で受信した交信内容をテキスト化します。
 
+
+  
+  ![](https://github.com/7m4mon/qso_transcriber/blob/main/one_day_430_main_ch.png)  
+  
+
 * スケルチ検出ケーブル
   * スケルチ信号を CTS に、パワーオン信号を DSR に接続します。
   ![](https://github.com/7m4mon/qso_transcriber/blob/main/cable_sch.png)  
