@@ -34,6 +34,5 @@
     ![](https://github.com/7m4mon/qso_transcriber/blob/main/qso_transcriber_flow_chart.png)  
 ---
 
-* 余談  
-  このようなLLMをローカルで動かす場合、10GB以上のRAMを積んだ中級以上のグラフィックボードが必要なようですが、結構なお値段なので、アマチュアが遊ぶのだったらクラウドサービスをありがたく利用させていただくのがお手軽ですね。  
-  逆に外部に対する秘匿性や機密性が必要な企業は、社内に一つサーバーを用意するといろいろと捗るのではないでしょうか。
+FB News に寄稿しました。  
+https://www.fbnews.jp/202407/special/
